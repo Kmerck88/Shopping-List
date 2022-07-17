@@ -6,7 +6,7 @@ d.Add("Apple", 4m);   // atleast 8 items
 d.Add("Orange", 3m);
 d.Add("Washing Powder", 10m);
 d.Add("Strawberries", 7m);
-d.Add("Salt", 2m);
+d.Add("Milk", 2.99m);
 d.Add("Sugar", 4m);
 d.Add("Dish Soap", 6m);
 d.Add("Beef", 50m);
@@ -46,7 +46,7 @@ foreach (var val in myList)
     Console.WriteLine(" {0}  {1}", val.Key, val.Value);
     sum += val.Value;
 }
-Console.WriteLine("Total Is {0}", sum / myList.Count());// print average
+Console.WriteLine("Total Is {0}", sum / myList.Count);// print average
 	
 	
 	
